@@ -1,0 +1,27 @@
+# FAULTY CALCULATOR
+# 45 * 3 =555 , 56 + 9 = 77, 56/6 = 4
+print("welcome to faulty calculatur\n")
+print("-,+,*,/,\n")
+while(True):
+    n1  = input("operater\n")
+
+    n2  = input("Enter fist number\n")
+    n3  = input("enter second number\n")
+
+    new_input = n2 + n1 + n3
+
+    if new_input == "45*3":
+        print(555)
+    elif new_input == "56+9":
+            print(77)
+    elif new_input == "56/6":
+        print(4)
+    elif n1== "*":
+        print(int(n2) * int(n3))
+    elif n1 == "+":
+        print(int(n2) + int(n3))
+    elif n1 == "-":
+        print(int(n2) - int(n3))
+    elif n1 == "/":
+         print(int(n2) / int(n3))
+
